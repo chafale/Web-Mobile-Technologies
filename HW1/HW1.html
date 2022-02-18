@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSCI-571 HW1</title>
+
+    <style>
+        .scroll {
+            Overflow-x: scroll;
+        }
+
+        nav {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #12141c;
+        }
+
+        nav a {
+            margin-right: 30px;
+            color: white;
+            font-size: 32px;
+            text-decoration: none;
+            font-family: Verdana, sans-serif;
+            text-shadow: 2px 2px #f47920;
+        }
+
+        .la-drive {
+            position: relative;
+            text-align: center;
+            background-image: url("./img/rodeo-drive.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 750px;
+            background-position-x: center;
+            background-position-y: center;
+        }
+
+        .centered {
+            position: absolute;
+            color: #f47920;
+            font-family: Verdana, sans-serif;
+            font-size: 44px;
+            text-shadow: 2px 2px white;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .grid-container {
+            background-color: #212529;
+            padding-left: 100px;
+            padding-top: 150px;
+            padding-right: 100px;
+            padding-bottom: 100px;
+        }
+
+        .text-img {
+            background-color: black;
+            height: 600px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="la-drive">
+        <nav>
+            <a href="#"> Home </a>
+            <a href="#"> Contacts </a>
+            <a href="#"> Explore </a>
+        </nav>
+        <!-- <img src="./img/rodeo-drive.jpeg" style="overflow: hidden; width: 100%; height: 650px; background-size: cover; background-position: 50% 50%;"> -->
+        <div class="centered">LA - The City of Angeles</div>
+    </div>
+
+    <div class="grid-container" style="padding-left: 150px;padding-right: 150px;height: 600px;">
+        <div class="box" style="display: inline;">
+            <div
+                style="float: left;width: 300px;height: 480px;padding-left: 20px;padding-top: 20px;padding-right: 20px;margin-bottom: 10px;background-color: black;padding-bottom: 20px;border-radius: 10px;">
+                <img src="./img/griffith.jpeg" style="width: 100%;height: 225px;">
+                <h2 style="color: white;font-family: Verdana, serif;">Griffith Observatory</h2>
+                <p style="color: white;font-family: Verdana, serif;">Griffith Observatory is southern
+                    California's gateway to the cosmos!
+                    Visitors may look through
+                    telescopes, explore exhibits, see live
+                    shows in the Samuel Oschin
+                    Planetarium, and enjoy spectacular
+                    views of Los Angeles and the
+                    Hollywood Sign.
+                </p>
+            </div>
+            <div
+                style="float: left;width: 300px;height: 480px;padding-left: 20px;padding-top: 20px;padding-right: 20px;padding-bottom: 20px;background-color: black;margin-left: 45px;border-radius: 10px;">
+                <img src="./img/mountains.jpeg" style="width: 100%;/*! height: 225px; */">
+                <h2 style="color: white;font-family: Verdana, serif;">Mountains</h2>
+                <p style="color: white;font-family: Verdana, serif;font-size: 16px;">Soaring high above the Los
+                    Angeles
+                    Basin, the San Gabriel Mountains
+                    serves as the backyard to the
+                    nation's second-largest urban
+                    center. This chaparral-cloaked land
+                    of steep ridges and V-shaped
+                    canyons is one of the wildest
+                    remaining areas in the surrounding
+                    Angeles National Forest
+                </p>
+            </div>
+            <div
+                style="float: right;width: 300px;height: 480px;padding-left: 20px;padding-top: 20px;padding-right: 20px;padding-bottom: 20px;background-color: black;border-radius: 10px;">
+                <img src="./img/universalstudios.jpeg" style="width: 100%;height: 225px;">
+                <h2 style="color: white;font-family: Verdana, serif;">Universal Studios</h2>
+                <p style="color: white;font-family: Verdana, serif;">Find a full day of action-packed
+                    entertainment all in one place:
+                    thrilling Theme Park rides and
+                    shows, a real working movie studio,
+                    and Los Angeles' best shops,
+                    restaurants and cinemas at
+                    City Walk. Universal Studios
+                    Hollywood is a unique experience
+                    that's fun for the whole family.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="text-img">
+        <div>
+            <p>Los Angeles is the City of Dreams and is the heart of southern
+                California. It is a vast and varied geographic entity. The city is
+                famous for being the home of the rich and famous, Hollywood,
+                the main home of major entertainment companies, ethnically
+                diverse, and the second-largest city in America.
+                The residents of Los Angeles are called Angelenos. Their lifestyle
+                relies on the automobile, idealizes the single-family dwelling, and
+                favours informality. With notable exceptions, the skyline is
+                primarily horizontal rather than vertical. Los Angeles is a place
+                of extraordinary ethnic and racial diversity, owing largely to
+                immigration, and, like other world cities, it reflects a growing gap
+                between rich and poor.
+            </p>
+        </div>
+        <div>
+            <img src="./img/lasky.png" width="500px">
+        </div>
+    </div>
+</body>
+
+</html>
