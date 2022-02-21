@@ -20,12 +20,12 @@
             font-size: 32px;
             text-decoration: none;
             font-family: Verdana, sans-serif;
-            text-shadow: 2px 2px #f47920;
+            text-shadow: 1px 2px #f47920;
         }
 
         nav a:hover {
             color: #f47920;
-            text-shadow: 2px 2px white;
+            text-shadow: 1px 2px white;
         }
 
         .la-drive {
@@ -34,7 +34,7 @@
             background-image: url("./img/rodeo-drive.jpeg");
             background-size: cover;
             background-repeat: no-repeat;
-            width: 100%;
+            width: 1425px;
             height: 500px;
             background-position: 50% 97%;
         }
@@ -52,24 +52,55 @@
 
         .section2 {
             background-color: #212529;
-            padding-left: 100px;
             padding-top: 150px;
-            padding-right: 100px;
             padding-bottom: 100px;
+            padding-left: 150px;
+            padding-right: 150px;
+            height: 600px;
+            width: 1125px;
         }
 
         .section3 {
             background-color: black;
             height: 300px;
+            width: 1125px;
+            padding-top: 100px;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-bottom: 100px;
+        }
+
+        .section4 {
+            background-color: #212529;
+            height: 450px;
+            display: inline-block;
+            margin-top: -4px;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-top: 100px;
+            padding-bottom: 100px;
         }
 
         .red-bar {
-            width: 100%;
+            width: 1425px;
             height: 2px;
             background-color: rgb(255, 94, 0);
             position: -webkit-sticky;
             position: sticky;
             top: 0;
+        }
+
+        .footer {
+            background-color: black;
+            height: 200px;
+            margin-top: -4px;
+            padding-left: 150px;
+            padding-right: 150px;
+            width: 1125px;
+            padding-top: 50px;
+            color: white;
+            font-family: Verdana, serif;
+            text-align: center;
         }
     </style>
 </head>
@@ -84,72 +115,70 @@
         </nav>
         <div class="centered">LA - The City of Angeles</div>
     </div>
-    <div class="section2" style="padding-left: 150px;padding-right: 150px;height: 600px;">
-        <div class="box" style="display: inline;">
+    <div class="section2">
+        <div class="box" style="min-width: 1125px;">
             <div
                 style="float: left;width: 300px;height: 480px;padding-left: 20px;padding-top: 20px;padding-right: 20px;margin-bottom: 10px;background-color: black;padding-bottom: 20px;border-radius: 10px;">
-                <img src="./img/griffith.jpeg" style="width: 100%;height: 225px;">
+                <img src="./img/griffith.jpeg" style="width: 300px;height: 225px;">
                 <h2 id="section2-tile1-header" style="color: white;font-family: Verdana, serif;"></h2>
                 <p id="section2-tile1-data" style="color: white;font-family: Verdana, serif;"></p>
             </div>
             <div
                 style="float: left;width: 300px;height: 480px;padding-left: 20px;padding-top: 20px;padding-right: 20px;padding-bottom: 20px;background-color: black;margin-left: 55px;border-radius: 10px;">
-                <img src="./img/mountains.jpeg" style="width: 100%;">
+                <img src="./img/mountains.jpeg" style="width: 300px;">
                 <h2 id="section2-tile2-header" style="color: white;font-family: Verdana, serif;"></h2>
                 <p id="section2-tile2-data" style="color: white;font-family: Verdana, serif;font-size: 16px;"></p>
             </div>
             <div
                 style="float: right;width: 300px;height: 480px;padding-left: 20px;padding-top: 20px;padding-right: 20px;padding-bottom: 20px;background-color: black;border-radius: 10px;">
-                <img src="./img/universalstudios.jpeg" style="width: 100%;height: 225px;">
+                <img src="./img/universalstudios.jpeg" style="width: 300px;height: 225px;">
                 <h2 id="section2-tile3-header" style="color: white;font-family: Verdana, serif;"></h2>
                 <p id="section2-tile3-data" style="color: white;font-family: Verdana, serif;"></p>
             </div>
         </div>
     </div>
-    <div class="section3"
-        style="display: inline-block;margin-top: 0px;margin-left: 0px;padding-top: 100px;padding-left: 150px;padding-right: 150px;padding-bottom: 100px;">
-        <div style="float: left;color: white;text-align: justify;width: 50%;font-family: Verdana, serif;">
-            <p id="section3-para1" style="margin-top: 0px;margin-bottom: 0px;"></p>
-            <p id="section3-para2" style="margin-top: 16px;margin-bottom: 0px;"></p>
-        </div>
-        <div style="float: right;">
-            <img src="./img/lasky.png" width="500px">
-        </div>
-    </div>
-
-    <div class="section4" style="background-color: #212529; height: 450px; display: inline-block; margin-top: -4px;padding-left: 150px;
-        padding-right: 150px;
-        padding-top: 100px;
-        padding-bottom: 100px;">
-        <div
-            style="color: white; text-align: justify; font-family: Verdana, serif; width: 70%; float: right;margin-left: 0px;">
-            <h2 id="section4-header1" style="margin-top: -2.08px;margin-left: 0px;"></h2>
-            <p id="section4-para1"></p>
-        </div>
-        <div style="float: left;">
-            <img src="./img/hollywood.jpeg" width="300px">
-        </div>
-        <div style="color: white;  font-family: Verdana, serif; width: 74%; float: left;">
-            <h2 id="section4-header2" style="text-align: right;padding-right: 40px;"></h2>
-            <p id="section4-para2" style="padding-right: 40px;text-align: justify;"></p>
-        </div>
-        <div style="float: right;">
-            <img src="./img/beach.jpeg" style="width: 292px;margin-top: 24px;margin-left: 0px;padding-left: 0px;"
-                width="300px">
+    <div class="section3">
+        <div class="box" style="min-width: 1125px;">
+            <div
+                style="float: left;color: white;text-align: justify;width: 562px;font-family: Verdana, serif; margin-right: 60px;">
+                <p id="section3-para1" style="margin-top: 0px;margin-bottom: 0px;"></p>
+                <p id="section3-para2" style="margin-top: 16px;margin-bottom: 0px;"></p>
+            </div>
+            <div style="float: right;">
+                <img src="./img/lasky.png" width="500px">
+            </div>
         </div>
     </div>
 
-    <div class="footer" style="background-color: black; height: 200px; margin-top: -4px;padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 50px; color: white;font-family: Verdana, serif; text-align: center;">
-        <div style="width: 50%; float: left;  margin-top: 45px;">
+    <div class="section4">
+        <div class="box" style="min-width: 1125px;">
+            <div
+                style="color: white; text-align: justify; font-family: Verdana, serif; width: 787.5px; float: right;margin-left: 0px;">
+                <h2 id="section4-header1" style="margin-top: -2.08px;margin-left: 0px;"></h2>
+                <p id="section4-para1"></p>
+            </div>
+            <div style="float: left;">
+                <img src="./img/hollywood.jpeg" width="300px">
+            </div>
+            <div style="color: white;  font-family: Verdana, serif; width: 832.5px; float: left;">
+                <h2 id="section4-header2" style="text-align: right;padding-right: 40px;"></h2>
+                <p id="section4-para2" style="padding-right: 40px;text-align: justify;"></p>
+            </div>
+            <div style="float: right;">
+                <img src="./img/beach.jpeg" style="width: 292px;margin-top: 24px;margin-left: 0px;padding-left: 0px;"
+                    width="300px">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
             <p>Tip the world over on its side and everything loose will land
                 in Los Angeles.
             </p>
             <p> - Frank Lloyd Wright</p>
         </div>
 
-        <div style="width: 50%; float: right;">
+        <div style="width: 562.5px; float: right;">
             <p style="font-size: 22px;">Designed By</p>
             <p>Ashwin Chafale</p>
             <a href="mailto: chafale@usc.edu" style="color:white;text-decoration: none;">chafale@usc.edu</a>
