@@ -13,13 +13,17 @@
         estimate!</p>
     <form id="form" action="/predict_bp" method="get" style="text-align: center;">
         <div>
-            <label for="age" style="text-align: left;">Age</label>
-            <label for="star1" style="color: red; text-align: left;">*</label>
+            <div style="display: inline-block;">
+                <label for="age" style="font-size: 22px;"><b>Age</b></label>
+                <label for="star1" style="color: red; text-align: left;"><b>*</b></label>
+            </div>
             <input type="number" name="age" id="age" placeholder="Enter age in years" required>
         </div><br>
         <div>
-            <label for="weight">Weight</label>
-            <label for="star2" style="color: red;">*</label>
+            <div style="display: inline-block;">
+                <label for="weight" style="font-size: 22px;"><b>Weight</b></label>
+                <label for="star2" style="color: red;"><b>*</b></label>
+            </div>
             <input type="number" name="weight" id="weight" placeholder="Enter weight in kg" required>
         </div><br>
         <div>

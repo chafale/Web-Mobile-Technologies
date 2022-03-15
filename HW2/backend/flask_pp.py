@@ -11,9 +11,11 @@ def load(age, weight):
     prediction = clf.predict(x)[0]
     return prediction
 
+
 @app.route("/")
 def home():
     return render_template("index.html")
+
 
 @app.route('/predict_bp', methods=['GET', 'POST'])
 def predictBP():
