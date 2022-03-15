@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW2</title>
+
+    <style>
+        label {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            text-align: right;
+            width: 856px;
+            line-height: 26px;
+            margin-bottom: 10px;
+        }
+
+        input {
+            height: 20px;
+            flex: 0 0 200px;
+            margin-left: 10px;
+        }
+
+        .button {
+            background-color: #506ba7;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            padding-top: 5px;
+            padding-bottom: 28px;
+            margin-left: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color:#8b0000; text-align: center;">Blood Pressure Predictor</h1>
+    <p style="color:#8b0000; text-align: center; font-size: 22px;">Fill out the form to get your Blood Pressure
+        estimate!</p><br>
+
+    <form id="form" action="/predict_bp" method="get" style="text-align: center;">
+        <label>
+            <span style="font-size: 22px;font-weight: bold;">Age</span>
+            <span style="color: red;font-weight: inherit;">&nbsp*</span>
+            <input type="number" name="age" placeholder="Enter age in years" required/>
+        </label><br>
+
+        <label>
+            <span style="font-size: 22px;font-weight: bold;">Weight</span>
+            <span style="color: red;font-weight: inherit;">&nbsp*</span>
+            <input type="number" name="weight" placeholder="Enter weight in kg" required/>
+        </label><br>
+
+        <input class="button" type="submit" value="Calculate" style="margin-left: 30px;">
+    </form><br>
+    <h4 style="text-align: center; font-size: 16px;">Predicted Blood Pressure : {{predict}}</h4>
+</body>
+
+</html>
